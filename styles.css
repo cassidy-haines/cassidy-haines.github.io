@@ -8,16 +8,16 @@ h1 {
 	text-align: center;
 }
 .about {
-    background: #00b3d1;
+    background: #e5d8ff;
 }
 p { 
-	text-align: center;   color: red;
+	text-align: center;   color: black;
   }
   #para1 {
-	text-align: center;   color: blue;
+	text-align: center;   color: black;
   }
   .center {
-	text-align: center;   color: green;
+	text-align: center;   color: black;
   }
   .project img{
     width: 300px;
