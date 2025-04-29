@@ -19,4 +19,66 @@ p {
   .center {
 	text-align: center;   color: green;
   }
+  .project img{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border: 2px solid rgb(126, 14, 201); /* choose a color */
+    display: block;
+    margin: auto;
+}
+a {  /* change the appearance of ALL links */
+    text-decoration: none;
+    color: purple;
+}
+.project p {  /* change the appearance of paragraph tags inside .project divs */
+    text-align: center;
+    margin: 15px;
+}
+.projects {   display:flex; flex-wrap:wrap;  }  /* condensed to save space */
+.project {
+    width: 30%;
+    margin: 10px;
+    padding: 20px 10px;
+    background: white;  /* pick a color */
+    border-radius: 25%;
+}
+.about{
+  display:flex;
+  flex-wrap:wrap;
+  margin-right: 100px;
+  margin-left: 100px;
+  justify-content: center;
+}
+.about img {
+  width: 150px;
+  height: 200px;
+  border-radius: 25%;
+  border: 2px solid  rgb(126, 14, 201);
+}
+.about p {
+  width:50%;
+  text-align: center;
+  margin: auto;
+  line-height: 125%;
+}
+.skills {
+  margin: 40px;
+}
+
+.contact{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: center;
+}
+
+.contact a {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
   
